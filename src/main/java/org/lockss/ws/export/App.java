@@ -118,6 +118,7 @@ public class App
 	
 		prov.setUsername(userName);
 		prov.setPassword(password);
+		prov.setTimeout(3600000);
 		return port;
 	}
 
